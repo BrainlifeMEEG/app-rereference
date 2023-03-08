@@ -26,5 +26,5 @@ epochs = mne.io.read_epochs(fname)
 epochs.set_eeg_reference(ref_channels = ref_ch)
 
 # save mne/raw
-epochs.save(os.path.join('out_dir','epochs_refset-epo.fif'))
+epochs.save(os.path.join('out_dir','ref-epo.fif'))
 

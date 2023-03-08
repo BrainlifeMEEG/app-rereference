@@ -1,0 +1,4 @@
+{
+    "epochs": "epochs-epo.fif",
+    "ref_ch": "average"
+}

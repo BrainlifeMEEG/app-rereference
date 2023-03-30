@@ -22,7 +22,7 @@ with open(__location__+'/config.json') as config_json:
 fname = config['epochs']
 ref_ch = config['ref_ch']
 
-epochs = mne.read_epochs(fname, picks='eeg')
+epochs = mne.read_epochs(fname)
 epochs.set_eeg_reference(ref_channels = ref_ch)
 
 # save mne/raw
